@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter.messagebox import *
 import orm
-from LOS USUARIOS.Usuarios import Usuarios
+from TABLA.Usuarios import Usuarios
 #creamos nuestra base de datos
 db = orm.SQLiteORM("db_diario_escolar")
 db.crear_tabla(Usuarios)
